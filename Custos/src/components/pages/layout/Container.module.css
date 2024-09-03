@@ -1,0 +1,25 @@
+/* Define a largura máxima da `.container` e centraliza ela na tela */
+.container {
+	width: 1200px; /* Define a largura fixa de 1200 pixels */
+	display: flex; /* Define o layout como flexível */
+	justify-content: space-between; /* Distribui o espaço entre os itens flexíveis */
+	margin: 0 auto; /* Centraliza a `.container` horizontalmente */
+	flex-wrap: wrap; /* Permite que os itens dentro da `.container` quebrem para a próxima linha se necessário */
+}
+
+/* Define uma altura mínima para o container */
+.min-height {
+	min-height: 75%; /* Define uma altura mínima de 75% da altura do elemento pai */
+}
+
+/* Alinha os itens do container ao início (lado esquerdo) */
+.start {
+	justify-content: flex-start; /* Alinha os itens ao início do contêiner flexível (lado esquerdo) */
+}
+
+/* Alinha os itens em coluna e alinha-os ao início */
+.column {
+	flex-direction: column; /* Alinha os itens verticalmente (em coluna) */
+	justify-content: flex-start; /* Alinha os itens ao início do contêiner flexível (no topo) */
+}
+
